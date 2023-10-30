@@ -1,10 +1,10 @@
 resource "aws_ssm_parameter" "params" {
-  count = length(var.parameters)
-  name  = var.parameters[count.index].name
-  type  = var.parameters[count.index].type
-  value = var.parameters[count.index].value
+  count     = length(var.parameters)
+  name      = var.parameters[count.index].name
+  type      = var.parameters[count.index].type
+  value     = var.parameters[count.index].value
   overwrite = true
-  key_id = "arn:aws:kms:us-east-1:739561048503:key/e8e78cec-c8e2-4f7d-a525-554ed53015d2"
+  key_id    = "arn:aws:kms:us-east-1:739561048503:key/e8e78cec-c8e2-4f7d-a525-554ed53015d2"
 }
 
 variable "parameters" {
