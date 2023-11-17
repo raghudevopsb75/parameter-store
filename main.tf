@@ -45,7 +45,7 @@ variable "parameters" {
     { name = "dev.roboshop.shipping.CART_ENDPOINT", value = "cart-dev.rdevopsb73.online:8080", type = "String" },
     { name = "dev.roboshop.payment.CART_HOST", value = "cart-dev.rdevopsb73.online:8080", type = "String" },
     { name = "dev.roboshop.payment.CART_PORT", value = "8080", type = "String" },
-    { name = "dev.roboshop.payment.USER_HOST", value = "dev-dev.rdevopsb73.online:8080", type = "String" },
+    { name = "dev.roboshop.payment.USER_HOST", value = "user-dev.rdevopsb73.online:8080", type = "String" },
     { name = "dev.roboshop.payment.USER_PORT", value = "8080", type = "String" },
     { name = "dev.roboshop.payment.AMQP_HOST", value = "rabbitmq-dev.rdevopsb73.online", type = "String" },
     { name = "dev.roboshop.payment.AMQP_USER", value = "roboshop", type = "String" },
