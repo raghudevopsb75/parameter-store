@@ -49,12 +49,15 @@ variable "parameters" {
     { name = "dev.roboshop.payment.USER_PORT", value = "8080", type = "String" },
     { name = "dev.roboshop.payment.AMQP_HOST", value = "rabbitmq-dev.rdevopsb73.online", type = "String" },
     { name = "dev.roboshop.payment.AMQP_USER", value = "roboshop", type = "String" },
+    { name = "dev.roboshop.dispatch.AMQP_HOST", value = "rabbitmq-dev.rdevopsb73.online", type = "String" },
+    { name = "dev.roboshop.dispatch.AMQP_USER", value = "roboshop", type = "String" },
 
     ## Passwords
     { name = "dev.roboshop.mysql.DB_PASS", value = "RoboShop@1", type = "SecureString" },
     { name = "dev.roboshop.shipping.DB_PASS", value = "RoboShop@1", type = "SecureString" },
     { name = "dev.roboshop.rabbitmq.MQ_PASS", value = "roboshop123", type = "SecureString" },
     { name = "dev.roboshop.payment.AMQP_PASS", value = "roboshop123", type = "SecureString" },
+    { name = "dev.roboshop.dispatch.AMQP_PASS", value = "roboshop123", type = "SecureString" },
 
   ]
 }
