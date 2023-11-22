@@ -33,7 +33,7 @@ variable "parameters" {
     { name = "dev.roboshop.frontend.user_url", value = "http://user-dev.rdevopsb73.online:8080/", type = "String" },
     { name = "dev.roboshop.frontend.shipping_url", value = "http://shipping-dev.rdevopsb73.online:8080/", type = "String" },
     { name = "dev.roboshop.frontend.payment_url", value = "http://payment-dev.rdevopsb73.online:8080/", type = "String" },
-    { name = "dev.roboshop.catalogue.MONGO_URL", value = "'mongodb://docdbadmin:RoboShop1234@dev-docdb-cluster.cluster-cbvsbeoyxek4.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false'", type = "String" },
+    { name = "dev.roboshop.catalogue.MONGO_URL", value = "mongodb://docdbadmin:RoboShop1234@dev-docdb-cluster.cluster-cbvsbeoyxek4.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false", type = "String" },
     { name = "dev.roboshop.catalogue.MONGO_ENDPOINT", value = "mongodb-dev.rdevopsb73.online", type = "String" },
     { name = "dev.roboshop.user.MONGO_URL", value = "mongodb://mongodb-dev.rdevopsb73.online:27017/users", type = "String" },
     { name = "dev.roboshop.user.REDIS_HOST", value = "redis-dev.rdevopsb73.online", type = "String" },
