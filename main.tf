@@ -76,7 +76,7 @@ variable "parameters" {
     { name = "prod.roboshop.frontend.user_url", value = "http://user-prod.rdevopsb73.online:80/", type = "String" },
     { name = "prod.roboshop.frontend.shipping_url", value = "http://shipping-prod.rdevopsb73.online:80/", type = "String" },
     { name = "prod.roboshop.frontend.payment_url", value = "http://payment-prod.rdevopsb73.online:80/", type = "String" },
-    { name = "prod.roboshop.catalogue.MONGO_URL", value = "mongodb://docdbadmin:RoboShop1234@dev-docdb-cluster.cluster-cbvsbeoyxek4.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false", type = "String" },
+    { name = "prod.roboshop.catalogue.MONGO_URL", value = "mongodb://docdbadmin:RoboShop1234@prod-docdb-cluster.cluster-cbvsbeoyxek4.us-east-1.docdb.amazonaws.com:27017/catalogue?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false", type = "String" },
     { name = "prod.roboshop.catalogue.MONGO_ENDPOINT", value = "mongodb-prod.rdevopsb73.online", type = "String" },
     { name = "prod.roboshop.user.MONGO_URL", value = "mongodb://docdbadmin:RoboShop1234@prod-docdb-cluster.cluster-cbvsbeoyxek4.us-east-1.docdb.amazonaws.com:27017/users?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false", type = "String" },
     { name = "prod.roboshop.user.REDIS_HOST", value = "prod-elasticache-cluster.nud0cy.0001.use1.cache.amazonaws.com", type = "String" },
