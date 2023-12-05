@@ -87,7 +87,7 @@ variable "parameters" {
     { name = "prod.roboshop.cart.CATALOGUE_PORT", value = "80", type = "String" },
     { name = "prod.roboshop.shipping.DB_HOST", value = "mysql-prod.rdevopsb73.online", type = "String" },
     { name = "prod.roboshop.shipping.DB_USER", value = "root", type = "String" },
-    { name = "prod.roboshop.shipping.CART_ENDPOINT", value = "cart-prod.rdevopsb73.online:80", type = "String" },
+    { name = "prod.roboshop.shipping.CART_ENDPOINT", value = "cart:80", type = "String" },
     { name = "prod.roboshop.payment.CART_HOST", value = "cart-prod.rdevopsb73.online", type = "String" },
     { name = "prod.roboshop.payment.CART_PORT", value = "80", type = "String" },
     { name = "prod.roboshop.payment.USER_HOST", value = "user-prod.rdevopsb73.online", type = "String" },
@@ -100,6 +100,7 @@ variable "parameters" {
     ## DB Endpoints
     { name = "prod.roboshop.docdb.endpoint", value = "prod-docdb-cluster.cluster-cbvsbeoyxek4.us-east-1.docdb.amazonaws.com", type = "String" },
     { name = "prod.roboshop.rds.endpoint", value = "prod-mysql.cluster-cbvsbeoyxek4.us-east-1.rds.amazonaws.com", type = "String" },
+
 
     ## Passwords
     { name = "prod.roboshop.mysql.DB_PASS", value = "RoboShop@1", type = "SecureString" },
