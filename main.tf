@@ -83,7 +83,7 @@ variable "parameters" {
     { name = "prod.roboshop.user.MONGO_URL", value = "mongodb://docdbadmin:RoboShop1234@prod-docdb-cluster.cluster-cbvsbeoyxek4.us-east-1.docdb.amazonaws.com:27017/users?tls=true&replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false", type = "String" },
     { name = "prod.roboshop.user.REDIS_HOST", value = "prod-elasticache-cluster.nud0cy.0001.use1.cache.amazonaws.com", type = "String" },
     { name = "prod.roboshop.cart.REDIS_HOST", value = "prod-elasticache-cluster.nud0cy.0001.use1.cache.amazonaws.com", type = "String" },
-    { name = "prod.roboshop.cart.CATALOGUE_HOST", value = "catalogue-prod.rdevopsb73.online", type = "String" },
+    { name = "prod.roboshop.cart.CATALOGUE_HOST", value = "catalogue", type = "String" },
     { name = "prod.roboshop.cart.CATALOGUE_PORT", value = "80", type = "String" },
     { name = "prod.roboshop.shipping.DB_HOST", value = "mysql-prod.rdevopsb73.online", type = "String" },
     { name = "prod.roboshop.shipping.DB_USER", value = "root", type = "String" },
